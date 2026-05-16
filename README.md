@@ -24,7 +24,7 @@ O projeto foi montado utilizando a plataforma Arduino Uno. Abaixo está o mapeam
 O firmware gerencia o fluxo do sistema através dos seguintes estados:
 
 1.  **FECHADO:** Estado inicial. LED Vermelho ligado e servo em 0°. O LCD solicita a senha.
-2.  **SENHA:** Captura as entradas dos botões D5, D6 e D7. Exibe `*` no LCD para cada dígito.
+2.  **SENHA:** Captura as entradas dos botões e exibe `*` no LCD para cada dígito.
 3.  **VALIDANDO:** Verifica se a sequência está correta.
     * **Sucesso:** Transita para o estado ABERTO.
     * **Erro:** Incrementa contador. Após 3 erros, ativa o estado ALERTA.
