@@ -32,7 +32,7 @@ O firmware gerencia o fluxo do sistema através dos seguintes estados:
 5.  **ALERTA:** Ativado por erro de senha ou se o sensor TMP36 detectar temperatura crítica (simulação de arrombamento térmico). O buzzer soa continuamente.
 
 ## 🚀 Funcionalidades de Destaque
-* **Interrupção de Hardware:** Uso do pino 2 (`attachInterrupt`) para garantir que o reset do sistema seja processado instantaneamente, priorizando a segurança.
+* **Interrupção de Hardware:** Garante que o reset do sistema seja processado instantaneamente, priorizando a segurança.
 * **Segurança Multissensorial:** Feedback visual (LCD/LEDs), sonoro (Buzzer) e físico (Servo).
 * **Economia de Pinos:** Uso do protocolo I2C para o display, mantendo pinos livres para os sensores e atuadores.
 
