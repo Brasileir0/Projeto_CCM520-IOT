@@ -37,6 +37,8 @@ O firmware gerencia o fluxo do sistema através dos seguintes estados:
 * **Economia de Pinos:** Uso do protocolo I2C para o display, mantendo pinos livres para os sensores e atuadores.
 
 ---
+**Acesso ao Tinkercad:** https://www.tinkercad.com/things/6Cmww4qJKMk-projetofinal?sharecode=saOO1jmqN2JENfwy6DjL92_VhJlMMZxDlli7og500OA
+
 **Desenvolvido por:** \
 Vinicius Brasileiro Nobre (22.124.013-8) \
 Gabriel de Figueiredo Pereira Engle (22.225.014-4)
